@@ -10,10 +10,11 @@ let headName = "<h1>Nama saya muhamaddika</h1>"
     <span>{{ msg }}</span> <br>
     <span style="color: blue"></span>
     <span v-html="rawHtml"></span>
-    <span v-html="headName"></span>
+    <span v-html="headName"></span> 
     <button v-bind:aria-disabled="isButtonDisabled">Tombol</button>
-  </div>
+  </div> <br>
   {{ text }}
+  <br><br>
   <button v-on:click="reversetxt()">balikeun</button>
 </template>
 
